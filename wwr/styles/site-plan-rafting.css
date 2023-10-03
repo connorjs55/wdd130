@@ -7,7 +7,7 @@ Fonts are separated by a & */
 :root {
   /* change the values below to your colors from your palette */
   --primary-color: #231F20   ;
-  --secondary-color: #FEC10D ;
+  --secondary-color: #19647e ;
   --accent1-color: #FFFFFF;
   --accent2-color: white;
 
@@ -16,17 +16,17 @@ Fonts are separated by a & */
   --paragraph-font: Roboto;
 
   /* these colors below should be chosen from among your palette colors above */
-  /* https://coolors.co/231f20-fec10d-ffffff */
-  --headline-color-on-white: #fec10d;  /* headlines on a white background */ 
-  --headline-color-on-color: #231f20; /* headlines on a colored background */ 
-  --paragraph-color-on-white: #ffffff; /* paragraph text on a white background */ 
-  --paragraph-color-on-color: #231f20; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #fec10d  ;
-  --nav-link-color: #ffffff;
-  --nav-background-color: #fec10d;
+  /* https://coolors.co/231f20-19647e-ffffff */
+  --headline-color-on-white: #19647e;  /* headlines on a white background */ 
+  --headline-color-on-color: #ffffff; /* headlines on a colored background */ 
+  --paragraph-color-on-white: #231f20; /* paragraph text on a white background */ 
+  --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
+  --paragraph-background-color: #19647e  ;
+  --nav-link-color: #231f20;
+  --nav-background-color: #19647e;
   --nav-hover-link-color: ffffff;
-  --nav-hover-background-color: #231f20;
-  /* https://coolors.co/231f20-fec10d-ffffff */
+  --nav-hover-background-color: #ffffff;
+  /* https://coolors.co/231f20-19647e-ffffff */
 }
 
 
