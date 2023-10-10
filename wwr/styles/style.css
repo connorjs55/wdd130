@@ -1,0 +1,34 @@
+#content {
+    max-width: 1600px; /* Adjust the max-width value as needed */
+    margin: 0 auto; /*0 is for top and bottom, auto is for left and right */
+}
+
+/* Center-align text for <a> elements inside <nav> */
+nav a {
+    text-align: center;
+}
+
+/* Center-align text for <h1> and <h4> elements inside #hero-msg */
+#hero-msg h1, #hero-msg h4 {
+    text-align: center;
+}
+
+/* Center-align text for elements with class "button-box" */
+.button-box {
+    text-align: center;
+}
+
+/* Center-align text for <section> elements inside <main> */
+main section {
+    text-align: center;
+}
+
+/* background height */
+#background {
+    height: 725px;
+}
+
+/* background colors */
+body {
+    background-color: #
+}
