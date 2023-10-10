@@ -6,10 +6,10 @@ Fonts are separated by a & */
 
 :root {
   /* change the values below to your colors from your palette */
-  --primary-color: #231F20   ;
-  --secondary-color: #19647e ;
-  --accent1-color: #FFFFFF;
-  --accent2-color: #e9eaec;
+  --primary-color: #000000   ;
+  --secondary-color: #FEC10D ;
+  --accent1-color: #414042;
+  --accent2-color: #ececed;
 
   /* change the values below to your chosen font(s) */
   --heading-font: Roboto;
@@ -21,7 +21,7 @@ Fonts are separated by a & */
   --headline-color-on-color: #FEC10D; /* headlines on a colored background */ 
   --paragraph-color-on-white: #000000; /* paragraph text on a white background */ 
   --paragraph-color-on-color: #ffffff; /* paragraph text on a colored background */ 
-  --paragraph-background-color: #414042  ;
+  --paragraph-background-color: #ececed  ;
   --nav-link-color: #19647e;
   --nav-background-color: #414042;
   --nav-hover-link-color: #FEC10D;
