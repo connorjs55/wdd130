@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+:root {
+    font-family: 'Roboto', Arial, sans-serif;
+
+}
+
 #content {
     max-width: 1600px; /* Adjust the max-width value as needed */
     margin: 0 auto; /*0 is for top and bottom, auto is for left and right */
@@ -40,7 +47,7 @@ main section {
     background-color: #ececed
 }
 
-/* background colors */
+
 body {
     background-color: #ffffff
 }
