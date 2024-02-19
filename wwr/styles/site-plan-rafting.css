@@ -2,7 +2,7 @@
 /* if you are using any Google fonts change the font names below to your fonts. 
 Any spaces in your font name should be replaced with a +. 
 Fonts are separated by a & */
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap'); */
 
 
 :root {
@@ -13,8 +13,8 @@ Fonts are separated by a & */
   --accent2-color: #ececed;
 
   /* change the values below to your chosen font(s) */
-  --heading-font: Roboto;
-  --paragraph-font: Roboto, Helvetica, sans-serif;
+  --heading-font: Verdana, Helvetica, sans-serif;
+  --paragraph-font: Helvetica, Verdana, sans-serif;
 
   /* these colors below should be chosen from among your palette colors above */
   /* https://coolors.co/000000-414042-ececed-fec10d */
