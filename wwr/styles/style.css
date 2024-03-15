@@ -233,9 +233,34 @@ nav {
     grid-template-columns: repeat(10, 1fr);
 }
 
+#rivers {
+    text-align: center;
+}
+
+.rivers-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.left-column {
+    grid-column: 1/2;
+    align-items: center;
+    margin-left: 20px;
+}
+
+.right-column {
+    grid-column: 2/3;
+    align-items: right;
+
+}
 
 
 
+
+
+
+/* MEDIA STARTS HERE */
 
 @media screen and (max-width: 900px) {
     #hero, .home-grid {
