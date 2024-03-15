@@ -251,7 +251,6 @@ nav {
 
 .right-column {
     grid-column: 2/3;
-    align-items: right;
 
 }
 
