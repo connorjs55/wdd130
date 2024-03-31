@@ -96,12 +96,16 @@ nav a:hover {
     font-size: 3.6em
 }
 
-#hero-msg h4 {
-    color: #F1E8D9
+#hero-msg p {
+    color: #F1E8D9;
 }
 
 #hero-img {
     width: 100%
+}
+
+#home-msg {
+    margin-top: 150px;
 }
 
 /* #quote-box {
@@ -115,7 +119,7 @@ nav a:hover {
     margin-top: 100px;
 }
 .home-title {
-    color: #ffffff;
+    color: #395255;
     font-family: Verdana, Helvetica, sans-serif;
     font-size: 2em;
     margin-top: 10px;
@@ -222,8 +226,8 @@ footer .social img {
 }
 
 /* #rivers {
-    text-align: center; */
-}
+    text-align: center;
+} */
 /* 
 .rivers-grid {
     display: grid;
