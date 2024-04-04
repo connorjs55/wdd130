@@ -91,6 +91,13 @@ nav a:hover {
     text-align: center;
 }
 
+.home-title {
+    color: #395255;
+    font-family: Verdana, Helvetica, sans-serif;
+    font-size: 2em;
+    margin-top: 10px;
+}
+
 #hero-msg h1 {
     color: #395255; 
     font-size: 3.6em
@@ -117,12 +124,6 @@ nav a:hover {
 #quote-text {
     text-align: center;
     margin-top: 100px;
-}
-.home-title {
-    color: #395255;
-    font-family: Verdana, Helvetica, sans-serif;
-    font-size: 2em;
-    margin-top: 10px;
 }
 
 .icon {
@@ -225,6 +226,10 @@ footer .social img {
     padding-top: 15px;
 }
 
+.child-page-title {
+    text-align: center;
+}
+
 /* #rivers {
     text-align: center;
 } */
@@ -246,7 +251,15 @@ footer .social img {
 
 } */
 
+.info-text {
+    /* box-sizing: content-box; */
+    margin-bottom: 100px;
+}
 
+.info-image {
+    /* box-sizing: content-box; */
+    margin-top: 100px;
+}
 
 /* Media stuff starts here */
 
