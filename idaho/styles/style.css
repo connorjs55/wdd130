@@ -105,7 +105,19 @@ nav a:hover {
 
 #hero-msg p {
     color: #F1E8D9;
+    /* text-shadow: -1px -1px 0 #000,  
+    1px -1px 0 #000,
+   -1px  1px 0 #000,
+    1px  1px 0 #000; Add black shadow with slight offset */
+    /* -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px; */
 }
+
+/* .outline {
+    color: #fff;
+    text-shadow: #000 0px 0px 1px;
+    -webkit-font-smoothing: antialiased;
+} */
 
 #hero-img {
     width: 100%
@@ -258,7 +270,14 @@ footer .social img {
 
 .info-image {
     /* box-sizing: content-box; */
-    margin-top: 100px;
+    /* margin-top: 100px;
+    width: 100%;
+    max-width: 800px;
+    display: block; */
+
+    width: 100%; /* Ensure the image fills its container */
+    height: auto; /* Maintain aspect ratio */
+    max-width: 100%; /* Prevent the image from overflowing its container */
 }
 
 /* Media stuff starts here */
@@ -283,9 +302,13 @@ footer .social img {
     }
     #hero-msg h4 {
         display: none;
+        color: #487773
     }
     #hero-msg h1 {
-        color: #6f7364;
+        color: #395255;
+    }
+    #hero-msg p {
+        color: #F1E8D9 
     }
     .home-title {
         font-size: 25px;
