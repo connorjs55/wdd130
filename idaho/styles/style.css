@@ -26,7 +26,10 @@ p {
 
 /* Center-align text for <section> elements inside <main> */
 main section {
-    text-align: center;
+    text-align: center; 
+    width: 100%;
+    max-width: 1200px; /* or whatever you want it to be */
+    margin: 0 auto;
 }
 
 main section img {
