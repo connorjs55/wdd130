@@ -6,22 +6,25 @@
 /* Center-align text for <a> elements inside <nav> */
 
 h1 {
-    color: #395255
-
+    color: #395255;
+    font-family: Verdana, Helvetica, sans-serif;
 }
 
 h2 {
     margin: 0;
     color: #395255;
+    font-family: Verdana, Helvetica, sans-serif;
 }
 
 h4 {
     color:#487773;
     text-align: center;
+    font-family: Verdana, Helvetica, sans-serif;
 }
 
 p {
-    color: #F1E8D9
+    color: #F1E8D9;
+    font-family: Helvetica, Verdana, sans-serif;
 }
 
 /* Center-align text for <section> elements inside <main> */
@@ -272,11 +275,11 @@ footer .social img {
 }
 
 .info-image {
-    /* box-sizing: content-box; */
-    /* margin-top: 100px;
-    width: 100%;
+    /* box-sizing: content-box;
+    margin-top: 100px;
+    width: 100%; */
     max-width: 800px;
-    display: block; */
+    /* display: block; */
 
     width: 100%; /* Ensure the image fills its container */
     height: auto; /* Maintain aspect ratio */
@@ -311,7 +314,9 @@ footer .social img {
         color: #395255;
     }
     #hero-msg p {
-        color: #F1E8D9 
+        color: #487773;
+        margin-left: 20px;
+        margin-right: 20px; 
     }
     .home-title {
         font-size: 25px;
@@ -325,5 +330,14 @@ footer .social img {
     }
     footer {
         margin-top: 25px;
+    }
+    .info {
+        display: block;
+        height: auto;
+        margin-top: 0;
+    }
+    .info-img {
+        max-width: 800px;
+        width: 100%;
     }
 }
